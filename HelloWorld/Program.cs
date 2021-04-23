@@ -6,7 +6,10 @@ namespace HelloWorld
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			Console.WriteLine("Введите имя пользователя:");
+			string userName = Console.ReadLine();
+			Console.WriteLine($"Привет, {userName}, сегодня {DateTime.Now}");
+			Console.ReadLine();
 		}
 	}
 }
